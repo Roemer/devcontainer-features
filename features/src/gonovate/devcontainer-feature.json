@@ -1,0 +1,18 @@
+{
+    "id": "gonovate",
+    "version": "1.0.0",
+    "name": "Gonovate",
+    "description": "A package which installs Gonovate.",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest",
+                "0.6.6",
+                "0.5"
+            ],
+            "default": "latest",
+            "description": "The version of Gonovate to install."
+        }
+    }
+}
